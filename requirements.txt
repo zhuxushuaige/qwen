@@ -1,0 +1,8 @@
+qwen-agent==0.0.34
+streamlit==1.66.1
+httpx==0.28.1
+soundfile==0.14.0
+tqdm==4.70.1
+sqlite-vec==0.1.9
+pypdf>=4.0.0,<7
+python-dotenv>=1.0,<2

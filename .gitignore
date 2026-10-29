@@ -1,0 +1,17 @@
+.venv/
+.qwen-agent-venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+local_assistant_data/
+qwen_agent_data/
+*.sqlite*
+*.db
+*.jsonl
+*.gguf
+*.safetensors
+*.log
+.pytest_cache/
+.streamlit/secrets.toml
