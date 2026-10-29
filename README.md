@@ -69,6 +69,6 @@ python verify_release.py
 
 ## 复用来源及当前边界
 
-记忆组件来自 [hust-kylin-os-memory](https://github.com/ichor-001/hust-kylin-os-memory)，必要的 Python 源码依赖放在 `vendor/memory_core/`，具体说明见 `THIRD_PARTY_NOTICES.md`。`MEMORY_PROJECT_ROOT` 可指定其他兼容的原项目路径。
+记忆组件的 Python 源码依赖位于 `vendor/memory_core/`。`MEMORY_PROJECT_ROOT` 可指定其他兼容的原项目路径。
 
 当前使用规则记忆写入器、特征哈希检索和 SQLite 后端，未启用语义冲突组织器。回答中的引用提示不等同于事实正确性验证；长记录覆盖、数值归属与多轮上下文仍需要评测。此仓库不包含个人数据库、资料快照、模型、服务器凭据或原项目全部功能。
